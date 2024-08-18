@@ -1,0 +1,14 @@
+/* Estilos globales para la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #113c4d;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}

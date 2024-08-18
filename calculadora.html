@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <h3>A2 - Jacome Roberto - 17713</h3>
+    <template id="calculator-template">
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <button id="btn-clear" class="clear">C</button>
+            <button>√</button> <!-- Botón para raíz cuadrada -->
+            <button>^</button> <!-- Botón para potencia -->
+            <button class="operator">+</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">-</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">*</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">/</button>
+            <button>.</button>
+            <button>0</button>
+            
+            <button class="equal">=</button>
+           
+            
+           
+        </div>
+    </template>
+    <mi-calculadora></mi-calculadora>
+    <script src="calculadora.js"></script>
+</body>
+</html>
+
